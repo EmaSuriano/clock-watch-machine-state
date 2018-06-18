@@ -4,11 +4,14 @@ import ClockWatch from './ClockWatch';
 import LightMachine from './LightMachine';
 
 import './styles.css';
+import TimerLight from './TimerLight/TimerLight';
 
 function App() {
   return (
     <div className="App">
-      <ClockWatch />
+      {/* <ClockWatch />
+      <LightMachine /> */}
+      <TimerLight />
     </div>
   );
 }

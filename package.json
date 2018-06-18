@@ -1,14 +1,19 @@
 {
   "name": "clock-watch-machine-state",
   "version": "1.0.0",
-  "description":
-    "This is an example of how to implement a state management with machine state using xstate",
-  "keywords": ["react", "machine state", "xstate", "clockwatch"],
+  "description": "This is an example of how to implement a state management with machine state using xstate",
+  "keywords": [
+    "react",
+    "machine state",
+    "xstate",
+    "clockwatch"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "prop-types": "15.6.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
+    "react-interval": "^2.0.2",
     "react-scripts": "1.1.4",
     "xstate": "3.3.2"
   },
